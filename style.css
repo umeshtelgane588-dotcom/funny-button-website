@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.container {
+    text-align: center;
+}
+
+.buttons {
+    position: relative;
+    width: 400px;
+    height: 200px;
+    margin-top: 30px;
+}
+
+button {
+    padding: 12px 25px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+#fineBtn {
+    background: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+#notFineBtn {
+    position: absolute;
+    left: 220px;
+    top: 0;
+    background: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
